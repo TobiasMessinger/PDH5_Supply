@@ -1,0 +1,38 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 9076f81b-9402-4e8e-a7b9-7d4f1167dca6)
+
+  (paper "A4")
+
+  (title_block
+    (title "Overview")
+    (date "2023-11-06")
+    (rev "000")
+    (company "Tobias Messinger")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 154.94 66.04) (size 43.18 33.02) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid c25ae333-d952-4d70-8d5a-48839e58cdb1)
+    (property "Sheetname" "MCU" (at 154.94 65.3284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "mcu.kicad_sch" (at 154.94 99.6446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "PDH5_Supply"
+        (path "/9076f81b-9402-4e8e-a7b9-7d4f1167dca6" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
